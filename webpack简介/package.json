@@ -1,0 +1,18 @@
+{
+  "name": "webpack-first",
+  "version": "1.0.0",
+  "description": "webpack是一个JavaScript模块打包工具，是解决模块间的依赖关系，最终合并为一个js文件。这个模块过程被称为模块打包。换而言之，我们把源代码交给webpack，让webpack进行拼装，产出最终的资源文件。",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "dev": "webpack-dev-server"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^4.44.0",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  }
+}
